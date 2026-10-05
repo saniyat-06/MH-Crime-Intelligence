@@ -1,0 +1,62 @@
+venv/
+temp_ml/
+.venv/
+env/
+.env
+# Python virtual environment
+backend/venv/
+
+# Python cache
+__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*.dist-info/
+*.egg-info/
+
+# Vendored/local Python packages
+backend/annotated_doc/
+backend/annotated_types/
+backend/anyio/
+backend/bin/
+backend/click/
+backend/colorama/
+backend/dateutil/
+backend/fastapi/
+backend/h11/
+backend/idna/
+backend/joblib/
+backend/numpy/
+backend/pandas/
+backend/scipy/
+backend/sklearn/
+backend/pydantic/
+backend/pydantic_core/
+backend/psycopg2/
+backend/scipy_broken/
+backend/pytz/
+backend/starlette/
+backend/typing_inspection/
+backend/tzdata/
+backend/uvicorn/
+backend/*.libs/
+backend/six.py
+backend/threadpoolctl.py
+backend/typing_extensions.py
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Vite cache
+frontend/node_modules/.vite/
+
+# Environment variables
+backend/.env
+frontend/.env
+backend/app-config.json
+
+# Local backup artifacts
+backup_db.py
+ksp_crime_backup_karnataka.sql
+
+# Build output
+frontend/dist/

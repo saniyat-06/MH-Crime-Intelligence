@@ -1,0 +1,23 @@
+{
+  "appsail": [
+    {
+      "source": "backend",
+      "name": "ksp-backend"
+    }
+  ],
+  "client": {
+    "source": "frontend/dist"
+  },
+  "ignore": [
+    "**/venv",
+    "**/__pycache__",
+    "venv",
+    "backend/venv",
+    "backend/venv/**",
+    "**/node_modules",
+    "frontend/node_modules",
+    "frontend/node_modules/**",
+    "**/venv/**",
+    "**/.git/**"
+  ]
+}

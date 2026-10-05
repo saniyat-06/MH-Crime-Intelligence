@@ -1,0 +1,3823 @@
+{
+  "baseline": 10.3,
+  "stations": [
+    {
+      "station_id": 26,
+      "station_name": "Tophkhana PS",
+      "district": "Ahilyanagar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 11.6,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 53.7,
+          "direction": "increasing",
+          "raw_contribution": 0.932
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 19.6,
+          "direction": "increasing",
+          "raw_contribution": 0.341
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 12.1,
+          "direction": "increasing",
+          "raw_contribution": 0.21
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 7.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.135
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.117
+        }
+      ],
+      "explanation": "Tophkhana PS shows elevated predicted risk (12 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (53.7%) and crime-type mix (19.6%)."
+    },
+    {
+      "station_id": 16,
+      "station_name": "Thane Nagar PS",
+      "district": "Thane",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 11.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 75.2,
+          "direction": "increasing",
+          "raw_contribution": 0.84
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 12.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.139
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 12.2,
+          "direction": "increasing",
+          "raw_contribution": 0.136
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 0.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.002
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.0,
+          "direction": "increasing",
+          "raw_contribution": 0.0
+        }
+      ],
+      "explanation": "Thane Nagar PS shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (75.2%) and weekday/weekend pattern (12.2%)."
+    },
+    {
+      "station_id": 8,
+      "station_name": "Kurla PS",
+      "district": "Mumbai Suburban",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 11.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 43.4,
+          "direction": "increasing",
+          "raw_contribution": 0.534
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 30.1,
+          "direction": "increasing",
+          "raw_contribution": 0.37
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 13.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.166
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 6.6,
+          "direction": "increasing",
+          "raw_contribution": 0.081
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.079
+        }
+      ],
+      "explanation": "Kurla PS shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (43.4%) and time-of-day pattern (30.1%)."
+    },
+    {
+      "station_id": 29,
+      "station_name": "Shahupuri PS",
+      "district": "Kolhapur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 42.2,
+          "direction": "increasing",
+          "raw_contribution": 0.455
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 34.7,
+          "direction": "increasing",
+          "raw_contribution": 0.375
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 16.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.175
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 6.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.068
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.6,
+          "direction": "increasing",
+          "raw_contribution": 0.007
+        }
+      ],
+      "explanation": "Shahupuri PS shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (42.2%) and weekday/weekend pattern (34.7%)."
+    },
+    {
+      "station_id": 62,
+      "station_name": "Anand Nagar PS",
+      "district": "Dharashiv",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 51.3,
+          "direction": "increasing",
+          "raw_contribution": 0.708
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 17.4,
+          "direction": "increasing",
+          "raw_contribution": 0.24
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 16.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.221
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 13.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.189
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.6,
+          "direction": "increasing",
+          "raw_contribution": 0.023
+        }
+      ],
+      "explanation": "Anand Nagar PS shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (51.3%) and recent incident trend (17.4%)."
+    },
+    {
+      "station_id": 42,
+      "station_name": "Dhule City PS",
+      "district": "Dhule",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.8,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 37.6,
+          "direction": "increasing",
+          "raw_contribution": 0.293
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 31.8,
+          "direction": "increasing",
+          "raw_contribution": 0.247
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 22.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.178
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 4.6,
+          "direction": "increasing",
+          "raw_contribution": 0.036
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 3.2,
+          "direction": "increasing",
+          "raw_contribution": 0.025
+        }
+      ],
+      "explanation": "Dhule City PS shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (37.6%) and crime-type mix (31.8%)."
+    },
+    {
+      "station_id": 46,
+      "station_name": "Sangli City PS",
+      "district": "Sangli",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.8,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 73.1,
+          "direction": "increasing",
+          "raw_contribution": 0.694
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 22.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.215
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 3.0,
+          "direction": "increasing",
+          "raw_contribution": 0.028
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 0.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.008
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.004
+        }
+      ],
+      "explanation": "Sangli City PS shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (73.1%) and recent incident trend (3.0%)."
+    },
+    {
+      "station_id": 1,
+      "station_name": "Colaba PS",
+      "district": "Mumbai City",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.6,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 50.0,
+          "direction": "increasing",
+          "raw_contribution": 0.47
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 22.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.207
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 12.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.119
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 11.6,
+          "direction": "increasing",
+          "raw_contribution": 0.109
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 3.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.036
+        }
+      ],
+      "explanation": "Colaba PS shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (50.0%) and time-of-day pattern (11.6%)."
+    },
+    {
+      "station_id": 43,
+      "station_name": "Azadnagar PS Dhule",
+      "district": "Dhule",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.5,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 43.0,
+          "direction": "increasing",
+          "raw_contribution": 0.245
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 33.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.192
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 19.1,
+          "direction": "increasing",
+          "raw_contribution": 0.109
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 2.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.016
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.4,
+          "direction": "increasing",
+          "raw_contribution": 0.008
+        }
+      ],
+      "explanation": "Azadnagar PS Dhule shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (43.0%) and recent incident trend (19.1%)."
+    },
+    {
+      "station_id": 38,
+      "station_name": "Kotwali PS Akola",
+      "district": "Akola",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.5,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 58.6,
+          "direction": "increasing",
+          "raw_contribution": 0.385
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 22.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.15
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 17.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.112
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.01
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 0.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.0
+        }
+      ],
+      "explanation": "Kotwali PS Akola shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (58.6%)."
+    },
+    {
+      "station_id": 9,
+      "station_name": "Shivajinagar PS",
+      "district": "Pune",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.5,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 57.2,
+          "direction": "increasing",
+          "raw_contribution": 0.384
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 35.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.238
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.7,
+          "direction": "increasing",
+          "raw_contribution": 0.025
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 2.3,
+          "direction": "increasing",
+          "raw_contribution": 0.015
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 1.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.009
+        }
+      ],
+      "explanation": "Shivajinagar PS shows typical predicted risk (11 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (57.2%) and time-of-day pattern (3.7%)."
+    },
+    {
+      "station_id": 82,
+      "station_name": "Gadchiroli City PS",
+      "district": "Gadchiroli",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.5,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 55.4,
+          "direction": "increasing",
+          "raw_contribution": 0.378
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 26.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.179
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 10.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.069
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 4.1,
+          "direction": "increasing",
+          "raw_contribution": 0.028
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 4.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.028
+        }
+      ],
+      "explanation": "Gadchiroli City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (55.4%) and recent incident trend (4.1%)."
+    },
+    {
+      "station_id": 4,
+      "station_name": "Dadar PS",
+      "district": "Mumbai City",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.4,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 50.8,
+          "direction": "increasing",
+          "raw_contribution": 0.328
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 29.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.19
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 10.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.068
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 6.2,
+          "direction": "increasing",
+          "raw_contribution": 0.04
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 3.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.02
+        }
+      ],
+      "explanation": "Dadar PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (50.8%) and time-of-day pattern (6.2%)."
+    },
+    {
+      "station_id": 81,
+      "station_name": "Ramnagar PS Chandrapur",
+      "district": "Chandrapur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.4,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 44.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.188
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 37.8,
+          "direction": "increasing",
+          "raw_contribution": 0.16
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 8.4,
+          "direction": "increasing",
+          "raw_contribution": 0.036
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 5.9,
+          "direction": "increasing",
+          "raw_contribution": 0.025
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 3.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.016
+        }
+      ],
+      "explanation": "Ramnagar PS Chandrapur shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (37.8%) and time-of-day pattern (8.4%)."
+    },
+    {
+      "station_id": 18,
+      "station_name": "Wagle Estate PS",
+      "district": "Thane",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.4,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 46.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.178
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 23.6,
+          "direction": "increasing",
+          "raw_contribution": 0.09
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 22.5,
+          "direction": "increasing",
+          "raw_contribution": 0.086
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 5.9,
+          "direction": "increasing",
+          "raw_contribution": 0.023
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.2,
+          "direction": "increasing",
+          "raw_contribution": 0.005
+        }
+      ],
+      "explanation": "Wagle Estate PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (23.6%) and weekday/weekend pattern (22.5%)."
+    },
+    {
+      "station_id": 37,
+      "station_name": "Bhusawal PS",
+      "district": "Jalgaon",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 40.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.194
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 34.8,
+          "direction": "increasing",
+          "raw_contribution": 0.167
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 12.4,
+          "direction": "increasing",
+          "raw_contribution": 0.059
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 11.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.055
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.004
+        }
+      ],
+      "explanation": "Bhusawal PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (34.8%) and recent incident trend (12.4%)."
+    },
+    {
+      "station_id": 31,
+      "station_name": "Faujdar Chawadi PS",
+      "district": "Solapur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 50.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.162
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 19.8,
+          "direction": "increasing",
+          "raw_contribution": 0.063
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 15.1,
+          "direction": "increasing",
+          "raw_contribution": 0.048
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 12.3,
+          "direction": "increasing",
+          "raw_contribution": 0.039
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 2.3,
+          "direction": "increasing",
+          "raw_contribution": 0.007
+        }
+      ],
+      "explanation": "Faujdar Chawadi PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (19.8%) and crime-type mix (15.1%)."
+    },
+    {
+      "station_id": 30,
+      "station_name": "Sadar Bazar PS Solapur",
+      "district": "Solapur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 44.4,
+          "direction": "increasing",
+          "raw_contribution": 0.215
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 37.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.181
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 11.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.053
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 5.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.029
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 1.3,
+          "direction": "increasing",
+          "raw_contribution": 0.006
+        }
+      ],
+      "explanation": "Sadar Bazar PS Solapur shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (44.4%) and weekday/weekend pattern (1.3%)."
+    },
+    {
+      "station_id": 77,
+      "station_name": "Tumsar PS",
+      "district": "Bhandara",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 41.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.216
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 34.0,
+          "direction": "increasing",
+          "raw_contribution": 0.178
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 11.4,
+          "direction": "increasing",
+          "raw_contribution": 0.06
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 9.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.048
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 4.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.022
+        }
+      ],
+      "explanation": "Tumsar PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (34.0%) and recent incident trend (11.4%)."
+    },
+    {
+      "station_id": 5,
+      "station_name": "Bandra PS",
+      "district": "Mumbai Suburban",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 42.0,
+          "direction": "increasing",
+          "raw_contribution": 0.247
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 27.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.162
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 16.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.095
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 14.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.083
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.0,
+          "direction": "increasing",
+          "raw_contribution": 0.0
+        }
+      ],
+      "explanation": "Bandra PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (42.0%) and time-of-day pattern (0.0%)."
+    },
+    {
+      "station_id": 78,
+      "station_name": "Gondia City PS",
+      "district": "Gondia",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 51.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.192
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 23.7,
+          "direction": "increasing",
+          "raw_contribution": 0.088
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 14.1,
+          "direction": "increasing",
+          "raw_contribution": 0.053
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 8.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.032
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 2.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.008
+        }
+      ],
+      "explanation": "Gondia City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (23.7%) and recent incident trend (14.1%)."
+    },
+    {
+      "station_id": 2,
+      "station_name": "Azad Maidan PS",
+      "district": "Mumbai City",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 38.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.213
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 34.4,
+          "direction": "increasing",
+          "raw_contribution": 0.19
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 12.5,
+          "direction": "increasing",
+          "raw_contribution": 0.069
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 9.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.053
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 5.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.028
+        }
+      ],
+      "explanation": "Azad Maidan PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (34.4%) and crime-type mix (12.5%)."
+    },
+    {
+      "station_id": 19,
+      "station_name": "Panchavati PS",
+      "district": "Nashik",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 43.2,
+          "direction": "increasing",
+          "raw_contribution": 0.262
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 27.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.167
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 20.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.125
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.04
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.012
+        }
+      ],
+      "explanation": "Panchavati PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (43.2%)."
+    },
+    {
+      "station_id": 32,
+      "station_name": "Kotwali PS Amravati",
+      "district": "Amravati",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 42.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.21
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 39.8,
+          "direction": "increasing",
+          "raw_contribution": 0.198
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 17.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.086
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.4,
+          "direction": "increasing",
+          "raw_contribution": 0.002
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 0.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.001
+        }
+      ],
+      "explanation": "Kotwali PS Amravati shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (39.8%) and time-of-day pattern (0.4%)."
+    },
+    {
+      "station_id": 44,
+      "station_name": "Satara City PS",
+      "district": "Satara",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 62.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.216
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 21.8,
+          "direction": "increasing",
+          "raw_contribution": 0.075
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 7.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.025
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 6.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.022
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.7,
+          "direction": "increasing",
+          "raw_contribution": 0.006
+        }
+      ],
+      "explanation": "Satara City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (21.8%) and time-of-day pattern (1.7%)."
+    },
+    {
+      "station_id": 70,
+      "station_name": "Washim City PS",
+      "district": "Washim",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 51.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.202
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 34.5,
+          "direction": "increasing",
+          "raw_contribution": 0.134
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 11.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.044
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.008
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 0.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.002
+        }
+      ],
+      "explanation": "Washim City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (34.5%)."
+    },
+    {
+      "station_id": 6,
+      "station_name": "Andheri PS",
+      "district": "Mumbai Suburban",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 38.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.229
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 27.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.162
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 23.6,
+          "direction": "increasing",
+          "raw_contribution": 0.142
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 11.1,
+          "direction": "increasing",
+          "raw_contribution": 0.067
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.1,
+          "direction": "increasing",
+          "raw_contribution": 0.001
+        }
+      ],
+      "explanation": "Andheri PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (23.6%) and recent incident trend (11.1%)."
+    },
+    {
+      "station_id": 80,
+      "station_name": "Chandrapur City PS",
+      "district": "Chandrapur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 52.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.173
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 21.0,
+          "direction": "increasing",
+          "raw_contribution": 0.07
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 10.9,
+          "direction": "increasing",
+          "raw_contribution": 0.036
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 9.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.032
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 6.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.02
+        }
+      ],
+      "explanation": "Chandrapur City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (21.0%) and crime-type mix (10.9%)."
+    },
+    {
+      "station_id": 68,
+      "station_name": "Buldhana City PS",
+      "district": "Buldhana",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 68.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.21
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 19.7,
+          "direction": "increasing",
+          "raw_contribution": 0.06
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.021
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 4.2,
+          "direction": "increasing",
+          "raw_contribution": 0.013
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 0.6,
+          "direction": "increasing",
+          "raw_contribution": 0.002
+        }
+      ],
+      "explanation": "Buldhana City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (19.7%) and crime-type mix (4.2%)."
+    },
+    {
+      "station_id": 23,
+      "station_name": "Cidco PS",
+      "district": "Chhatrapati Sambhajinagar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 68.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.162
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 16.5,
+          "direction": "increasing",
+          "raw_contribution": 0.039
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 12.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.029
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 1.1,
+          "direction": "increasing",
+          "raw_contribution": 0.003
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.002
+        }
+      ],
+      "explanation": "Cidco PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (16.5%) and recent incident trend (1.1%)."
+    },
+    {
+      "station_id": 64,
+      "station_name": "Kotwali PS Parbhani",
+      "district": "Parbhani",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.2,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 38.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.204
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 31.9,
+          "direction": "increasing",
+          "raw_contribution": 0.168
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 18.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.097
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 6.7,
+          "direction": "increasing",
+          "raw_contribution": 0.035
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 4.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.022
+        }
+      ],
+      "explanation": "Kotwali PS Parbhani shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (31.9%) and recent incident trend (6.7%)."
+    },
+    {
+      "station_id": 54,
+      "station_name": "Palghar PS",
+      "district": "Palghar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 38.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.367
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 37.4,
+          "direction": "increasing",
+          "raw_contribution": 0.356
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 16.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.16
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.064
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.4,
+          "direction": "increasing",
+          "raw_contribution": 0.003
+        }
+      ],
+      "explanation": "Palghar PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (37.4%) and time-of-day pattern (0.4%)."
+    },
+    {
+      "station_id": 53,
+      "station_name": "Kankavli PS",
+      "district": "Sindhudurg",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 41.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.209
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 27.5,
+          "direction": "increasing",
+          "raw_contribution": 0.139
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 15.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.077
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 12.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.061
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 4.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.02
+        }
+      ],
+      "explanation": "Kankavli PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (27.5%)."
+    },
+    {
+      "station_id": 39,
+      "station_name": "Civil Lines PS Akola",
+      "district": "Akola",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 48.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.164
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 17.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.061
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 17.6,
+          "direction": "increasing",
+          "raw_contribution": 0.059
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 12.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.041
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.013
+        }
+      ],
+      "explanation": "Civil Lines PS Akola shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (17.6%)."
+    },
+    {
+      "station_id": 36,
+      "station_name": "Jalgaon City PS",
+      "district": "Jalgaon",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 46.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.191
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 32.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.131
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 15.9,
+          "direction": "increasing",
+          "raw_contribution": 0.065
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 3.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.015
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 2.0,
+          "direction": "increasing",
+          "raw_contribution": 0.008
+        }
+      ],
+      "explanation": "Jalgaon City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (15.9%) and time-of-day pattern (2.0%)."
+    },
+    {
+      "station_id": 34,
+      "station_name": "Vazirabad PS",
+      "district": "Nanded",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 32.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.204
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 32.4,
+          "direction": "increasing",
+          "raw_contribution": 0.204
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 25.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.16
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 7.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.049
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 2.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.012
+        }
+      ],
+      "explanation": "Vazirabad PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (32.4%)."
+    },
+    {
+      "station_id": 49,
+      "station_name": "Panvel PS",
+      "district": "Raigad",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 55.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.234
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 19.3,
+          "direction": "increasing",
+          "raw_contribution": 0.081
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 11.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.048
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 10.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.042
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.014
+        }
+      ],
+      "explanation": "Panvel PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (19.3%)."
+    },
+    {
+      "station_id": 51,
+      "station_name": "Chiplun PS",
+      "district": "Ratnagiri",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 74.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.191
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 17.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.046
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.01
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 2.0,
+          "direction": "increasing",
+          "raw_contribution": 0.005
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 1.5,
+          "direction": "increasing",
+          "raw_contribution": 0.004
+        }
+      ],
+      "explanation": "Chiplun PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (2.0%) and recent incident trend (1.5%)."
+    },
+    {
+      "station_id": 48,
+      "station_name": "Alibag PS",
+      "district": "Raigad",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 60.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.171
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 15.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.044
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 11.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.033
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 8.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.024
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 4.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.012
+        }
+      ],
+      "explanation": "Alibag PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by seasonal factor (60.2%) and recent incident trend (15.4%)."
+    },
+    {
+      "station_id": 12,
+      "station_name": "Hadapsar PS",
+      "district": "Pune",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 67.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.206
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 16.2,
+          "direction": "increasing",
+          "raw_contribution": 0.049
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 12.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.039
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 2.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.009
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.0
+        }
+      ],
+      "explanation": "Hadapsar PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (16.2%)."
+    },
+    {
+      "station_id": 73,
+      "station_name": "Sewagram PS",
+      "district": "Wardha",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 66.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.192
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 12.3,
+          "direction": "increasing",
+          "raw_contribution": 0.036
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 10.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.03
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 9.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.027
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.005
+        }
+      ],
+      "explanation": "Sewagram PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (12.3%)."
+    },
+    {
+      "station_id": 74,
+      "station_name": "Yavatmal City PS",
+      "district": "Yavatmal",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 48.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.176
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 19.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.069
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 18.2,
+          "direction": "increasing",
+          "raw_contribution": 0.066
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 10.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.037
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.014
+        }
+      ],
+      "explanation": "Yavatmal City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (18.2%)."
+    },
+    {
+      "station_id": 69,
+      "station_name": "Khamgaon PS",
+      "district": "Buldhana",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 63.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.196
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 15.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.047
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 13.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.043
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 4.0,
+          "direction": "increasing",
+          "raw_contribution": 0.012
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 3.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.01
+        }
+      ],
+      "explanation": "Khamgaon PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (4.0%)."
+    },
+    {
+      "station_id": 3,
+      "station_name": "Marine Drive PS",
+      "district": "Mumbai City",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 45.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.177
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 20.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.081
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 17.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.066
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 12.8,
+          "direction": "increasing",
+          "raw_contribution": 0.049
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.6,
+          "direction": "increasing",
+          "raw_contribution": 0.014
+        }
+      ],
+      "explanation": "Marine Drive PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (12.8%) and time-of-day pattern (3.6%)."
+    },
+    {
+      "station_id": 15,
+      "station_name": "Ambazari PS",
+      "district": "Nagpur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 37.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.18
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 25.5,
+          "direction": "increasing",
+          "raw_contribution": 0.122
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 22.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.109
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 14.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.067
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 0.2,
+          "direction": "increasing",
+          "raw_contribution": 0.001
+        }
+      ],
+      "explanation": "Ambazari PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (25.5%) and weekday/weekend pattern (0.2%)."
+    },
+    {
+      "station_id": 57,
+      "station_name": "Shahada PS",
+      "district": "Nandurbar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 72.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.218
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 15.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.045
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 5.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.018
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 5.2,
+          "direction": "increasing",
+          "raw_contribution": 0.016
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.005
+        }
+      ],
+      "explanation": "Shahada PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (5.2%)."
+    },
+    {
+      "station_id": 41,
+      "station_name": "Shivaji Nagar PS Latur",
+      "district": "Latur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 76.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.178
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 10.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.023
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.016
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 4.9,
+          "direction": "increasing",
+          "raw_contribution": 0.011
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 1.2,
+          "direction": "increasing",
+          "raw_contribution": 0.003
+        }
+      ],
+      "explanation": "Shivaji Nagar PS Latur shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (4.9%) and recent incident trend (1.2%)."
+    },
+    {
+      "station_id": 66,
+      "station_name": "Hingoli City PS",
+      "district": "Hingoli",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.1,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 40.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.23
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 32.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.183
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 21.8,
+          "direction": "increasing",
+          "raw_contribution": 0.123
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.3,
+          "direction": "increasing",
+          "raw_contribution": 0.019
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 1.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.009
+        }
+      ],
+      "explanation": "Hingoli City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (21.8%) and time-of-day pattern (3.3%)."
+    },
+    {
+      "station_id": 50,
+      "station_name": "Ratnagiri City PS",
+      "district": "Ratnagiri",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.0,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 48.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.2
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 29.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.121
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 12.9,
+          "direction": "increasing",
+          "raw_contribution": 0.054
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.025
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 3.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.015
+        }
+      ],
+      "explanation": "Ratnagiri City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (12.9%)."
+    },
+    {
+      "station_id": 21,
+      "station_name": "Nashik Road PS",
+      "district": "Nashik",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.0,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 45.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.19
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 31.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.131
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 14.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.062
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 7.0,
+          "direction": "increasing",
+          "raw_contribution": 0.029
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.005
+        }
+      ],
+      "explanation": "Nashik Road PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (7.0%)."
+    },
+    {
+      "station_id": 27,
+      "station_name": "Shirdi PS",
+      "district": "Ahilyanagar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.0,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 26.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.176
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 23.3,
+          "direction": "increasing",
+          "raw_contribution": 0.153
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 17.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.117
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 17.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.112
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 15.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.099
+        }
+      ],
+      "explanation": "Shirdi PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (23.3%)."
+    },
+    {
+      "station_id": 13,
+      "station_name": "Sitabuldi PS",
+      "district": "Nagpur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.0,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 39.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.221
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 23.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.129
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 20.9,
+          "direction": "increasing",
+          "raw_contribution": 0.117
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 14.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.078
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 2.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.014
+        }
+      ],
+      "explanation": "Sitabuldi PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (20.9%)."
+    },
+    {
+      "station_id": 71,
+      "station_name": "Risod PS",
+      "district": "Washim",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.0,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 44.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.175
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 28.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.114
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 21.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.085
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 3.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.015
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.005
+        }
+      ],
+      "explanation": "Risod PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by seasonal factor (44.4%) and crime-type mix (28.9%)."
+    },
+    {
+      "station_id": 76,
+      "station_name": "Bhandara City PS",
+      "district": "Bhandara",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.0,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 39.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.202
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 32.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.164
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 15.0,
+          "direction": "increasing",
+          "raw_contribution": 0.076
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 10.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.052
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 2.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.012
+        }
+      ],
+      "explanation": "Bhandara City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (15.0%)."
+    },
+    {
+      "station_id": 24,
+      "station_name": "Begumpura PS",
+      "district": "Chhatrapati Sambhajinagar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.0,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 54.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.197
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 20.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.073
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 18.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.068
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 5.7,
+          "direction": "increasing",
+          "raw_contribution": 0.021
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.1,
+          "direction": "increasing",
+          "raw_contribution": 0.004
+        }
+      ],
+      "explanation": "Begumpura PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (5.7%) and time-of-day pattern (1.1%)."
+    },
+    {
+      "station_id": 61,
+      "station_name": "Beed City PS",
+      "district": "Beed",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 10.0,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 46.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.188
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 40.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.161
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 8.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.033
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 4.3,
+          "direction": "increasing",
+          "raw_contribution": 0.017
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.8,
+          "direction": "increasing",
+          "raw_contribution": 0.003
+        }
+      ],
+      "explanation": "Beed City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (4.3%) and time-of-day pattern (0.8%)."
+    },
+    {
+      "station_id": 40,
+      "station_name": "Gandhi Chowk PS",
+      "district": "Latur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 54.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.236
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 27.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.118
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 11.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.05
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 5.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.024
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.005
+        }
+      ],
+      "explanation": "Gandhi Chowk PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by seasonal factor (54.5%) and recent incident trend (27.2%)."
+    },
+    {
+      "station_id": 33,
+      "station_name": "Rajapeth PS",
+      "district": "Amravati",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 47.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.201
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 22.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.094
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 19.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.083
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 5.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.024
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 5.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.021
+        }
+      ],
+      "explanation": "Rajapeth PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by seasonal factor (47.6%) and recent incident trend (22.2%)."
+    },
+    {
+      "station_id": 11,
+      "station_name": "Hinjawadi PS",
+      "district": "Pune",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 38.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.191
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 28.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.138
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 17.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.085
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 13.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.065
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 2.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.014
+        }
+      ],
+      "explanation": "Hinjawadi PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by seasonal factor (38.8%) and recent incident trend (28.0%)."
+    },
+    {
+      "station_id": 72,
+      "station_name": "Wardha City PS",
+      "district": "Wardha",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 50.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.384
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 24.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.189
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 13.2,
+          "direction": "increasing",
+          "raw_contribution": 0.101
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 9.0,
+          "direction": "increasing",
+          "raw_contribution": 0.069
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 3.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.023
+        }
+      ],
+      "explanation": "Wardha City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (13.2%) and time-of-day pattern (9.0%)."
+    },
+    {
+      "station_id": 10,
+      "station_name": "Kothrud PS",
+      "district": "Pune",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 48.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.542
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 19.5,
+          "direction": "increasing",
+          "raw_contribution": 0.218
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 19.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.217
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 9.2,
+          "direction": "increasing",
+          "raw_contribution": 0.102
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.038
+        }
+      ],
+      "explanation": "Kothrud PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (19.5%) and weekday/weekend pattern (9.2%)."
+    },
+    {
+      "station_id": 75,
+      "station_name": "Wadgaon PS",
+      "district": "Yavatmal",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 42.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.215
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 29.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.15
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 10.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.054
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 9.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.05
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 7.2,
+          "direction": "increasing",
+          "raw_contribution": 0.037
+        }
+      ],
+      "explanation": "Wadgaon PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (7.2%)."
+    },
+    {
+      "station_id": 14,
+      "station_name": "Sadar PS",
+      "district": "Nagpur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 31.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.2
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 30.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.197
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 21.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.137
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 11.7,
+          "direction": "increasing",
+          "raw_contribution": 0.075
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 4.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.03
+        }
+      ],
+      "explanation": "Sadar PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (11.7%)."
+    },
+    {
+      "station_id": 59,
+      "station_name": "Sadar Bazar PS Jalna",
+      "district": "Jalna",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 55.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.496
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 21.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.194
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 11.7,
+          "direction": "increasing",
+          "raw_contribution": 0.105
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 9.4,
+          "direction": "increasing",
+          "raw_contribution": 0.084
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 2.0,
+          "direction": "increasing",
+          "raw_contribution": 0.018
+        }
+      ],
+      "explanation": "Sadar Bazar PS Jalna shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (11.7%) and weekday/weekend pattern (9.4%)."
+    },
+    {
+      "station_id": 67,
+      "station_name": "Hingoli Rural PS",
+      "district": "Hingoli",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.9,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 38.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.198
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 32.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.168
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 19.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.099
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 6.4,
+          "direction": "increasing",
+          "raw_contribution": 0.033
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 3.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.019
+        }
+      ],
+      "explanation": "Hingoli Rural PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (6.4%)."
+    },
+    {
+      "station_id": 25,
+      "station_name": "Kotwali PS Ahilyanagar",
+      "district": "Ahilyanagar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.8,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 29.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.324
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 27.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.3
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 26.2,
+          "direction": "increasing",
+          "raw_contribution": 0.291
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 16.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.179
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 1.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.016
+        }
+      ],
+      "explanation": "Kotwali PS Ahilyanagar shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (26.2%)."
+    },
+    {
+      "station_id": 58,
+      "station_name": "Kadim Jalna PS",
+      "district": "Jalna",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.8,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 33.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.184
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 24.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.135
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 16.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.092
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 14.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.078
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 10.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.057
+        }
+      ],
+      "explanation": "Kadim Jalna PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by seasonal factor (33.6%) and recent incident trend (24.7%)."
+    },
+    {
+      "station_id": 63,
+      "station_name": "Dharashiv City PS",
+      "district": "Dharashiv",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.8,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 44.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.264
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 33.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.198
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 13.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.079
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 5.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.034
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 3.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.022
+        }
+      ],
+      "explanation": "Dharashiv City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (44.2%) and seasonal factor (33.2%)."
+    },
+    {
+      "station_id": 83,
+      "station_name": "Kurkheda PS",
+      "district": "Gadchiroli",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.8,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 61.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.432
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 25.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.179
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 10.2,
+          "direction": "increasing",
+          "raw_contribution": 0.072
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 1.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.011
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.2,
+          "direction": "increasing",
+          "raw_contribution": 0.008
+        }
+      ],
+      "explanation": "Kurkheda PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (10.2%) and time-of-day pattern (1.2%)."
+    },
+    {
+      "station_id": 47,
+      "station_name": "Miraj PS",
+      "district": "Sangli",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.7,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 53.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.905
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 20.7,
+          "direction": "increasing",
+          "raw_contribution": 0.35
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 15.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.259
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 10.3,
+          "direction": "increasing",
+          "raw_contribution": 0.174
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.002
+        }
+      ],
+      "explanation": "Miraj PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (20.7%) and recent incident trend (10.3%)."
+    },
+    {
+      "station_id": 79,
+      "station_name": "Ramnagar PS Gondia",
+      "district": "Gondia",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.7,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 44.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.296
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 27.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.181
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 10.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.069
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 9.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.061
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 8.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.054
+        }
+      ],
+      "explanation": "Ramnagar PS Gondia shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (44.8%) and seasonal factor (27.3%)."
+    },
+    {
+      "station_id": 56,
+      "station_name": "Nandurbar City PS",
+      "district": "Nandurbar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.7,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 27.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.184
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 27.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.184
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 26.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.177
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 12.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.079
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 5.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.035
+        }
+      ],
+      "explanation": "Nandurbar City PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (27.9%) and seasonal factor (27.9%)."
+    },
+    {
+      "station_id": 60,
+      "station_name": "Shivaji Nagar PS Beed",
+      "district": "Beed",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.7,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 43.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.283
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 28.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.184
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 22.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.145
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 4.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.03
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.013
+        }
+      ],
+      "explanation": "Shivaji Nagar PS Beed shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (43.2%) and seasonal factor (28.1%)."
+    },
+    {
+      "station_id": 22,
+      "station_name": "Kranti Chowk PS",
+      "district": "Chhatrapati Sambhajinagar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.7,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 56.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.359
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 22.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.139
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 17.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.112
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 2.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.019
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.5,
+          "direction": "increasing",
+          "raw_contribution": 0.003
+        }
+      ],
+      "explanation": "Kranti Chowk PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (0.5%)."
+    },
+    {
+      "station_id": 65,
+      "station_name": "Naya Mondha PS",
+      "district": "Parbhani",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.7,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 51.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.36
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 30.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.215
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 10.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.076
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.046
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.2,
+          "direction": "increasing",
+          "raw_contribution": 0.001
+        }
+      ],
+      "explanation": "Naya Mondha PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (0.2%)."
+    },
+    {
+      "station_id": 17,
+      "station_name": "Naupada PS",
+      "district": "Thane",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.7,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 45.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.273
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 32.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.195
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 13.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.082
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 6.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.04
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 1.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.012
+        }
+      ],
+      "explanation": "Naupada PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (45.4%) and seasonal factor (32.4%)."
+    },
+    {
+      "station_id": 52,
+      "station_name": "Sawantwadi PS",
+      "district": "Sindhudurg",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.6,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 64.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.633
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 19.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.193
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 8.3,
+          "direction": "increasing",
+          "raw_contribution": 0.082
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 4.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.047
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 3.4,
+          "direction": "increasing",
+          "raw_contribution": 0.033
+        }
+      ],
+      "explanation": "Sawantwadi PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (8.3%) and recent incident trend (3.4%)."
+    },
+    {
+      "station_id": 7,
+      "station_name": "Borivali PS",
+      "district": "Mumbai Suburban",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.6,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 33.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.26
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 32.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.25
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 17.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.134
+        },
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 16.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.13
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.6,
+          "direction": "increasing",
+          "raw_contribution": 0.004
+        }
+      ],
+      "explanation": "Borivali PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (0.6%)."
+    },
+    {
+      "station_id": 20,
+      "station_name": "Sarkarwada PS",
+      "district": "Nashik",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.6,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 49.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.49
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 19.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.198
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 16.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.169
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 8.7,
+          "direction": "increasing",
+          "raw_contribution": 0.087
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 5.5,
+          "direction": "increasing",
+          "raw_contribution": 0.055
+        }
+      ],
+      "explanation": "Sarkarwada PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (8.7%) and time-of-day pattern (5.5%)."
+    },
+    {
+      "station_id": 55,
+      "station_name": "Vasai PS",
+      "district": "Palghar",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.6,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 39.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.364
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 23.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.22
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 20.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.188
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 11.3,
+          "direction": "increasing",
+          "raw_contribution": 0.104
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 4.7,
+          "direction": "decreasing",
+          "raw_contribution": -0.043
+        }
+      ],
+      "explanation": "Vasai PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by recent incident trend (11.3%)."
+    },
+    {
+      "station_id": 45,
+      "station_name": "Karad PS",
+      "district": "Satara",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.5,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 42.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.342
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 25.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.206
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 23.6,
+          "direction": "decreasing",
+          "raw_contribution": -0.192
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 8.8,
+          "direction": "decreasing",
+          "raw_contribution": -0.071
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 0.1,
+          "direction": "decreasing",
+          "raw_contribution": -0.001
+        }
+      ],
+      "explanation": "Karad PS shows typical predicted risk (10 incidents/week vs a station-average baseline of 10), driven primarily by crime-type mix (42.1%) and recent incident trend (25.4%)."
+    },
+    {
+      "station_id": 28,
+      "station_name": "Juna Rajwada PS",
+      "district": "Kolhapur",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.4,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 72.0,
+          "direction": "decreasing",
+          "raw_contribution": -0.785
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 19.3,
+          "direction": "decreasing",
+          "raw_contribution": -0.21
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 5.0,
+          "direction": "increasing",
+          "raw_contribution": 0.055
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 3.5,
+          "direction": "decreasing",
+          "raw_contribution": -0.038
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 0.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.002
+        }
+      ],
+      "explanation": "Juna Rajwada PS shows typical predicted risk (9 incidents/week vs a station-average baseline of 10), driven primarily by time-of-day pattern (5.0%)."
+    },
+    {
+      "station_id": 35,
+      "station_name": "Bhagyanagar PS",
+      "district": "Nanded",
+      "week": "2025-12-29T00:00:00",
+      "predicted_weekly_risk": 9.3,
+      "baseline": 10.3,
+      "shap_groups": [
+        {
+          "group": "crime_type_mix",
+          "label": "crime-type mix",
+          "pct": 65.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.722
+        },
+        {
+          "group": "seasonal_factor",
+          "label": "seasonal factor",
+          "pct": 20.2,
+          "direction": "decreasing",
+          "raw_contribution": -0.221
+        },
+        {
+          "group": "recent_trend",
+          "label": "recent incident trend",
+          "pct": 9.4,
+          "direction": "decreasing",
+          "raw_contribution": -0.103
+        },
+        {
+          "group": "time_of_day_pattern",
+          "label": "time-of-day pattern",
+          "pct": 3.9,
+          "direction": "decreasing",
+          "raw_contribution": -0.043
+        },
+        {
+          "group": "weekly_pattern",
+          "label": "weekday/weekend pattern",
+          "pct": 0.6,
+          "direction": "increasing",
+          "raw_contribution": 0.006
+        }
+      ],
+      "explanation": "Bhagyanagar PS shows below-average predicted risk (9 incidents/week vs a station-average baseline of 10), driven primarily by weekday/weekend pattern (0.6%)."
+    }
+  ]
+}
